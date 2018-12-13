@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  width: 50%;
+  height: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+nav {
+  text-align: center;
+  background-color: #b3d143;
+}
+
+nav li {
+  list-style-type: none;
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+@font-face {
+  font-family: 'Anton-Regular';
+  src: url("../polices/Anton-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Lato-Regular';
+  src: url("../polices/Lato-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Lato-Black';
+  src: url("../polices/Lato-Black.ttf");
+}
+
+.photo1 {
+  max-width: 100%;
+  height: auto;
+  background-image: url("../svg/points.svg");
+  padding-bottom: 60px;
+}
+
+#presentation {
+  font-family: 'Lato-Regular', sans-serif;
+  text-align: center;
+}
+
+#presentation #slogan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fcb731;
+  padding-bottom: 20px;
+  font-family: 'Anton-Regular', sans-serif;
+}
+
+#presentation #slogan .minilogo {
+  width: 25%;
+  height: 25%;
+}
+
+#presentation #chiffres {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+#presentation #chiffres .pictoPhotovoltaique {
+  -webkit-transform: rotate(-80deg);
+          transform: rotate(-80deg);
+}
+
+#presentation #chiffres div {
+  display: flex;
+  justify-content: space-around;
+}
+
+#presentation #plus {
+  background-color: #6d6f71;
+  color: white;
+  border-radius: 10px;
+  height: 50px;
+  margin-bottom: 20px;
+  font-family: 'Lato-Black', sans-serif;
+}
+
+#presentation #inscription {
+  background-color: #fcb731;
+  font-family: 'Lato-Black', sans-serif;
+  border-radius: 10px;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+#presentation .texte {
+  margin-bottom: 20px;
+  color: #6d6f71;
+  background-image: url("../svg/points.svg");
+}
+
+#info .photo {
+  width: 50%;
+  margin: 10px;
+}
+
+#info article {
+  font-family: 'Lato-Regular', sans-serif;
+  margin-bottom: 20px;
+}
+
+#info #actu {
+  background-color: #fcb731;
+  color: white;
+}
+
+#info #demarche {
+  background-color: #b3d143;
+}
+
+#info #installation {
+  background-image: url("../svg/points.svg");
+}
+
+#info #temoignage {
+  background-color: #e8ddca;
+}
+
+footer {
+  text-align: center;
+  background-color: #6d6f71;
+  color: white;
+}
+
+footer .partenaire {
+  width: 15%;
+}
+
+/*# sourceMappingURL=style.css.map */

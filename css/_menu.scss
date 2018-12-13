@@ -1,0 +1,27 @@
+$green: rgb(179, 209, 67);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  width: 50%;
+  height: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+nav {
+  text-align: center;
+  background-color: $green;
+  li {
+    list-style-type: none;
+    color: white;
+    border-bottom: 1px solid white;
+  }
+}
