@@ -1,143 +1,3 @@
-.logo {
-  width: 50%;
-  padding: 5px;
-}
-
-.photoHead {
-  max-width: 100%;
-  height: auto;
-  background-image: url("../svg/points.svg");
-  padding-bottom: 50px;
-}
-
-.iconMenu {
-  width: 9%;
-  padding-right: 5px;
-}
-
-.menu {
-  display: flex;
-  justify-content: space-between;
-  height: 50px;
-}
-
-@font-face {
-  font-family: 'Anton-Regular';
-  src: url("../polices/Anton-Regular.ttf");
-}
-
-@font-face {
-  font-family: 'Lato-Regular';
-  src: url("../polices/Lato-Regular.ttf");
-}
-
-@font-face {
-  font-family: 'Lato-Black';
-  src: url("../polices/Lato-Black.ttf");
-}
-
-.slogan {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: #fcb731;
-  padding-bottom: 20px;
-  font-family: 'Anton-Regular', sans-serif;
-}
-
-.slogan .minilogo {
-  width: 25%;
-}
-
-.pictos {
-  display: flex;
-  justify-content: space-around;
-  padding-bottom: 30px;
-}
-
-.pictos .icon {
-  width: 50px;
-  height: 50px;
-}
-
-.plus {
-  background-color: #6d6f71;
-  color: white;
-  border-radius: 10px;
-  height: 50px;
-  margin-bottom: 20px;
-  font-family: 'Lato-Black', sans-serif;
-  text-align: center;
-}
-
-.inscription {
-  background-color: #fcb731;
-  font-family: 'Lato-Black', sans-serif;
-  border-radius: 10px;
-  width: 50%;
-  text-align: center;
-  margin: auto;
-  margin-bottom: 20px;
-}
-
-.texte {
-  margin-bottom: 20px;
-  color: #6d6f71;
-  background-image: url("../svg/points.svg");
-}
-
-.article .photo {
-  width: 50%;
-  margin: 10px;
-}
-
-.article div {
-  font-family: 'Lato-Regular', sans-serif;
-  margin-bottom: 20px;
-}
-
-.article .actu {
-  background-color: #fcb731;
-  color: white;
-}
-
-.article .demarche {
-  background-color: #b3d143;
-}
-
-.article .installation {
-  background-image: url("../svg/points.svg");
-}
-
-.article .temoignage {
-  background-color: #e8ddca;
-}
-
-footer {
-  text-align: center;
-  background-color: #6d6f71;
-  color: white;
-}
-
-footer .partenaire {
-  width: 50px;
-}
-
-@font-face {
-  font-family: 'Anton-Regular';
-  src: url("../polices/Anton-Regular.ttf");
-}
-
-@font-face {
-  font-family: 'Lato-Regular';
-  src: url("../polices/Lato-Regular.ttf");
-}
-
-@font-face {
-  font-family: 'Lato-Black';
-  src: url("../polices/Lato-Black.ttf");
-}
-
 *,
 *::before,
 *::after {
@@ -326,6 +186,7 @@ label,
 select,
 summary,
 textarea {
+  -ms-touch-action: manipulation;
   touch-action: manipulation;
 }
 
@@ -476,5 +337,3 @@ template {
   height: 0;
   width: 0;
 }
-
-/*# sourceMappingURL=style.css.map */

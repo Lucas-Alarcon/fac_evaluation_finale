@@ -1,118 +1,78 @@
-$orange: rgb(252, 183, 49);
-$grey: rgb(109, 111, 113);
-$brown: rgb(195, 165, 117);
-$green: rgb(179, 209, 67);
-$lightbrown: rgb(232, 221, 202);
+@import "variables";
 
-
-
-@font-face {
-  font-family: 'Anton-Regular';
-  src: url('../polices/Anton-Regular.ttf');
-}
-
-@font-face {
-  font-family: 'Lato-Regular';
-  src: url('../polices/Lato-Regular.ttf');
-}
-
-@font-face {
-  font-family: 'Lato-Black';
-  src: url('../polices/Lato-Black.ttf');
-}
-
-.photo1 {
-  max-width: 100%;
-  height: auto;
-  background-image: url("../svg/points.svg");
-  padding-bottom: 60px;
-}
-
-#presentation {
-
-  font-family: 'Lato-Regular', sans-serif;
-  text-align: center;
-
-  #slogan {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: $orange;
-    padding-bottom: 20px;
-    font-family: 'Anton-Regular', sans-serif;
-    .minilogo {
-      width: 25%;
-      height: 25%;
-    }
+.slogan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: $orange;
+  padding-bottom: 20px;
+  font-family: 'Anton-Regular', sans-serif;
+  .minilogo {
+    width: 25%;
   }
+}
 
-  #chiffres {
+.pictos {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 30px;
 
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-
-
-    .pictoPhotovoltaique {
-      transform: rotate(-80deg);
-    }
-
-    div {
-      display: flex;
-      justify-content: space-around;
-    }
-
-  }
-
-  #plus {
-    background-color: $grey;
-    color: white;
-    border-radius: 10px;
+  .icon {
+    width: 50px;
     height: 50px;
-    margin-bottom: 20px;
-    font-family: 'Lato-Black', sans-serif;
-  }
-
-  #inscription {
-    background-color: $orange;
-    font-family: 'Lato-Black', sans-serif;
-    border-radius: 10px;
-    width: 50%;
-    margin-bottom: 20px;
-  }
-
-  .texte {
-    margin-bottom: 20px;
-    color: $grey;
-    background-image: url("../svg/points.svg");
-
   }
 }
 
-#info {
-    .photo {
-      width: 50%;
-      margin: 10px;
-    }
-  article {
+.plus {
+  background-color: $grey;
+  color: white;
+  border-radius: 10px;
+  height: 50px;
+  margin-bottom: 20px;
+  font-family: 'Lato-Black', sans-serif;
+  text-align: center;
+}
+
+.inscription {
+  background-color: $orange;
+  font-family: 'Lato-Black', sans-serif;
+  border-radius: 10px;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.texte {
+  margin-bottom: 20px;
+  color: $grey;
+  background-image: url("../svg/points.svg");
+}
+
+.article {
+  .photo {
+    width: 50%;
+    margin: 10px;
+  }
+  div {
     font-family: 'Lato-Regular', sans-serif;
     margin-bottom: 20px;
   }
 
-  #actu {
+  .actu {
     background-color: $orange;
     color: white;
   }
 
-  #demarche {
+  .demarche {
     background-color: $green;
   }
 
-  #installation {
+  .installation {
     background-image: url("../svg/points.svg");
   }
 
-  #temoignage {
+  .temoignage {
     background-color: $lightbrown;
   }
 }
@@ -123,7 +83,6 @@ footer {
   color: white;
 
   .partenaire {
-    width: 15%;
+    width: 50px;
   }
 }
-
